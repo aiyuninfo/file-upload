@@ -1,0 +1,22 @@
+{
+  "name": "file-upload",
+  "authors": [
+    "赵远 <admin@hythzx.com>"
+  ],
+  "description": "file upload directive with jQuery-File-Upload",
+  "main": "file-upload-directive.js",
+  "keywords": [
+    "file",
+    "upload",
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
