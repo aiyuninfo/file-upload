@@ -70,7 +70,11 @@
 
         uploader.onSuccessItem = function(fileItem, response, status, headers) {
             if(status == 200){  //上传成功
-                fileItem.desc = response;
+                if(response instanceof Array){
+                    fileItem.desc = response.length > 0 ? response[0] : {};
+                }else{
+                    fileItem.desc = response;
+                }
                 $scope.getSuccessFiles();
             }
         };
