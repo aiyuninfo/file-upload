@@ -1,5 +1,9 @@
 # file-upload
-angular js 文件上传组件
+angular js 文件上传组件<br>
+#bower
+```
+bower install aiyun-file-upload --save
+```
 ```HTML
 <div class="container">
     <div class="col-md-8 col-md-offset-2">
