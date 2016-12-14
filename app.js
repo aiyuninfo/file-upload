@@ -20,7 +20,7 @@
     function AppController($scope) {
         var vm = this;
         vm.url = 'http://localhost:8080/web/fileUpload';
-        vm.files = [];
+        vm.files = "/web/abkjbrgreg.png";
         vm.getAllFiles = function (fileList) {
             alert("call back")
         }
