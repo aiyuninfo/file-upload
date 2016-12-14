@@ -13,7 +13,7 @@ bower install aiyun-file-upload --save
             </div>
 
             <div class="panel-body">
-                <file-upload upload-url="{{vm.url}}" call-back="vm.getAllFiles()" ng-model="vm.files" is-single="false"></file-upload>
+                <file-upload upload-url="{{vm.url}}" call-back="vm.getAllFiles()" ng-model="vm.files" is-single="{{vm.isSingle}}"></file-upload>
             </div>
 
         </div>
