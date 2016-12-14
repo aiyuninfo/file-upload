@@ -12,6 +12,11 @@
   ],
   "license": "MIT",
   "homepage": "index.html",
+  "dependencies":{
+    "angular": "~1.5.8",
+    "bootstrap" : "~3.3.7",
+    "angular-file-upload": "^2.4.0"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
