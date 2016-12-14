@@ -55,7 +55,9 @@
                 </td>
                 <td>
                     <div ng-show="item.desc.url != null">
-                        <a ng-href="{{item.desc.url}}" target="_blank"><img class="hidden-xs" ng-src="{{item.desc.url}}" style="width: 80px;height: 80px;"/></a>
+                        <a ng-href="{{item.desc.url}}" target="_blank" class="btn btn-info btn-xs">
+                            <span class="glyphicon glyphicon-check"></span> <span class="hidden-sm  hidden-xs">查看</span>
+                        </a>
                     </div>
                 </td>
             </tr>
