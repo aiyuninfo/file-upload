@@ -8,7 +8,7 @@
                     <th></th>
                 </tr>
 
-                <tr ng-repeat="file in formImages">
+                <tr ng-repeat="file in formImages track by $index">
                     <td class="col-xs-3">{{file.fileName}}</td>
                     <td class="col-xs-5">{{file.path}}</td>
                     <td class="text-center col-xs-4">
@@ -19,7 +19,7 @@
                     </td>
                 </tr>
 
-                <tr ng-repeat="file in queues">
+                <tr ng-repeat="file in queues track by $index">
                     <td class="col-xs-3">{{file.fileName}}</td>
                     <td class="col-xs-5">{{file.path}}</td>
                     <td class="text-center col-xs-4">
