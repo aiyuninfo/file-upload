@@ -81,6 +81,13 @@
         };
 
         $scope.callBackFunc = function () {
+            putNgModelVal();
+            setTimeout(function () {
+                $scope.callBack();
+            },1000);
+        };
+
+        function putNgModelVal() {
             $scope.queues.forEach(function (val) {
                 $scope.formImages.push(val);
             });
@@ -90,8 +97,7 @@
             }else{
                 $scope.ngModel = $scope.formImages;
             }
-            $scope.callBack();
-        };
+        }
 
         $scope.removeFile = function (index) {
             $scope.formImages.splice(index,1);

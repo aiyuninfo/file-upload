@@ -21,18 +21,9 @@
         var vm = this;
         vm.isSingle = false;
         vm.url = 'http://localhost:8080/web/fileUpload';
-        vm.files = [{
-            fileName : '1',
-            path : 'web/a.jpg'
-        },{
-            fileName : '2',
-            path : 'web/b.jpg'
-        },{
-            fileName : '3',
-            path : 'web/c.jpg'
-        }];
+        vm.files = [];
         vm.getAllFiles = function (fileList) {
-            alert("call back")
+            console.log(vm.files);
         }
     }
 })();
