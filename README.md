@@ -1,5 +1,5 @@
 # file-upload
-angular js 文件上传组件<br>
+angular js 多文件上传组件<br>
 #bower
 ```
 bower install aiyun-file-upload --save
